@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.img_box{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+
+.slick-dots li{
+  color: #61dafb;
+  /* background-color: #61dafb; */
+  top: -40px;
+  left: 200px;
+}
+
+.img_box img{
+  margin: 0 auto;
+}
+
+.icon_wrap{
+  width: 70%;
+  height: 40px;
+  margin: 30px auto;
+  /* background-color: #61dafb; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  height: 40px;
+}
+
+.icon:hover{
+  color: #61dafb;
+  cursor: pointer;
+}
